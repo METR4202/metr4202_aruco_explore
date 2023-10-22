@@ -34,23 +34,10 @@ def generate_launch_description():
     x_pose = LaunchConfiguration('x_pose', default='0.0')
     y_pose = LaunchConfiguration('y_pose', default='0.0')
 
-    resource_path = os.path.join(package_dir, 'resource')
-    if  'GAZEBO_RESOURCE_PATH' in os.environ:
-        resource_path = [EnvironmentVariable('GAZEBO_RESOURCE_PATH'), ':' + resource_path]
-    else:
-    	assert os.path.isdir('/usr/share/gazebo-11'), 'Gazebo not found, set GAZEBO_RESOURCE_PATH environment variable'
-    	resource_path = ['/usr/share/gazebo-11:' + resource_path]
-
-    model_path = os.path.join(package_dir, 'models')
-    if  'GAZEBO_MODEL_PATH' in os.environ:
-        model_path = [EnvironmentVariable('GAZEBO_MODEL_PATH') , ':' + model_path]
-
-    print(f"Resourcepath: {resource_path}")
-
     world = os.path.join(
         get_package_share_directory('metr4202_aruco_explore'),
         'worlds',
-        'metr4202_final_demo.world'
+        'metr4202_final_demo_no_aruco.world'
     )
 
     gzserver_cmd = IncludeLaunchDescription(
@@ -84,8 +71,6 @@ def generate_launch_description():
     )
 
     ld = LaunchDescription([
-        SetEnvironmentVariable(name='GAZEBO_RESOURCE_PATH', value=resource_path),
-        SetEnvironmentVariable(name='GAZEBO_MODEL_PATH', value=model_path),
         gzserver_cmd,
         gzclient_cmd,
         robot_state_publisher_cmd,
