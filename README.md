@@ -1,4 +1,4 @@
-# METR4202 2023 Final Demo Test Environment
+# METR4202 2024 Final Demo Test Environment
 
 ## System requirements
 - Ubuntu 22.04 Jammy Jellyfish
@@ -24,7 +24,7 @@ Source your workspace and export TurtleBot3 WafflePi environment variable.
 cd ~/your_ws
 source install/setup.bash
 export TURTLEBOT3_MODEL=waffle_pi
-ros2 launch metr4202_aruco_explore metr4202_demo_world.launch.py
+ros2 launch metr4202_aruco_explore metr4202_2024_demo_world.launch.py
 ```
 The following Gazebo world should appear, along with spawning a TurtleBot3 WafflePi.
 
