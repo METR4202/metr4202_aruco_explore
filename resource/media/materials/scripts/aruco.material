@@ -48,3 +48,54 @@ material aruco_6x6_100mm_2
     }
   }
 }
+
+material aruco_6x6_100mm_51
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture 6x6_1000-51.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material aruco_6x6_100mm_59
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture 6x6_1000-59.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
+
+material aruco_6x6_100mm_100
+{
+  technique
+  {
+    pass
+    {
+      lighting off
+      texture_unit
+      {
+        texture 6x6_1000-100.png
+        filtering none none none
+        scale 1.0 1.0
+      }
+    }
+  }
+}
