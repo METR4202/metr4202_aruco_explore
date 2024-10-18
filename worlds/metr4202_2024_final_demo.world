@@ -1530,7 +1530,7 @@
         </link>
       </model>
       <model name='aruco_column_6x6_100mm_100'>
-        <pose>2 -7.31 0.7 0 0 0</pose>
+        <pose>2 -7.31 0.15 0 0 0</pose>
         <scale>1 1 1</scale>
         <link name='aruco_6x6_100mm_100::main'>
           <pose>2 -7.37 0.24 -1.57 1.57 0</pose>
@@ -1539,7 +1539,7 @@
           <wrench>0 0 0 0 0 0</wrench>
         </link>
         <link name='link'>
-          <pose>2 -7.31 0.7 0 0 0</pose>
+          <pose>2 -7.31 0.15 0 0 0</pose>
           <velocity>0 0 0 0 0 0</velocity>
           <acceleration>0 0 0 0 0 0</acceleration>
           <wrench>0 0 0 0 0 0</wrench>
