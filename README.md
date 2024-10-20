@@ -28,13 +28,7 @@ ros2 launch metr4202_aruco_explore metr4202_2024_demo_world.launch.py
 ```
 The following Gazebo world should appear, along with spawning a TurtleBot3 WafflePi.
 
-![METR4202_final_demo_test_world](https://github.com/METR4202/metr4202_aruco_explore/assets/11051890/723f9c85-8a93-4f7a-b108-6d01b981116f)
-
-If you do not wish to spawn the ArUco targets, you can instead use:
-
-```bash
-ros2 launch metr4202_aruco_explore metr4202_demo_world_no_aruco.launch.py
-```
+![Screenshot 2024-10-20 120750](https://github.com/user-attachments/assets/c4dca81f-f43f-47e0-9dac-116258f57490)
 
 ## Note
 
