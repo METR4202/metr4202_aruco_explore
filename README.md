@@ -13,6 +13,8 @@ Clone the repository into your ROS2 workspace and build.
 ```bash
 cd ~/your_ws/src
 git clone https://github.com/METR4202/metr4202_aruco_explore.git
+cd metr4202_aruco_explore
+git checkout final_demo_2024
 cd ~/your_ws
 colcon build --symlink-install --packages-select metr4202_aruco_explore
 ```
