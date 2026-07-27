@@ -28,7 +28,7 @@ ros2 launch metr4202_aruco_explore metr4202_2024_demo_world.launch.py
 ```
 The following Gazebo world should appear, along with spawning a TurtleBot3 WafflePi.
 
-![Screenshot 2024-10-20 120750](https://github.com/user-attachments/assets/c4dca81f-f43f-47e0-9dac-116258f57490)
+<img width="1147" height="1142" alt="Screenshot 2026-07-27 115215" src="https://github.com/user-attachments/assets/62590cd7-70b4-49ba-9a99-184a1fcceeb6" />
 
 ## Note
 
