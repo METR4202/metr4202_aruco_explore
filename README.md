@@ -14,7 +14,7 @@ Clone the repository into your ROS2 workspace and build.
 cd ~/your_ws/src
 git clone https://github.com/METR4202/metr4202_aruco_explore.git
 cd metr4202_aruco_explore
-git checkout final_demo_2025
+git switch final_demo_2026
 cd ~/your_ws
 colcon build --symlink-install --packages-select metr4202_aruco_explore
 ```
@@ -26,11 +26,11 @@ Source your workspace and export TurtleBot3 WafflePi environment variable.
 cd ~/your_ws
 source install/setup.bash
 export TURTLEBOT3_MODEL=waffle_pi
-ros2 launch metr4202_aruco_explore metr4202_2025_demo_world.launch.py
+ros2 launch metr4202_aruco_explore metr4202_2026_demo_world.launch.py
 ```
 The following Gazebo world should appear, along with spawning a TurtleBot3 WafflePi.
 
-<img width="1147" height="1142" alt="Screenshot 2026-07-27 115215" src="https://github.com/user-attachments/assets/62590cd7-70b4-49ba-9a99-184a1fcceeb6" />
+<img width="1158" height="1162" alt="Screenshot 2026-11-06 144636" src="https://github.com/user-attachments/assets/2771c213-dafb-4984-8ce6-70810a559ac8" />
 
 ## Note
 
