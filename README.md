@@ -1,4 +1,4 @@
-# METR4202 2024 Final Demo Test Environment
+# METR4202 2026 Final Demo Test Environment
 
 ## System requirements
 - Ubuntu 22.04 Jammy Jellyfish
